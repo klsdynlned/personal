@@ -3,7 +3,7 @@
 }		
 			
 	var person=prompt("密钥");
-	if (person!=null && person=="yu")
+	if (person!=null && person=="1017")
 {
  	window.location.href='home.html';
 } 
