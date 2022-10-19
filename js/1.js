@@ -60,8 +60,17 @@ function startTime()
 
 
 //获取图片   图片改变时调用
-let imgElement = document.getElementById('putt');
-	let inputElement = document.getElementById('fileInput');
-	inputElement.addEventListener('change', (e) => {
-		imgElement.src = URL.createObjectURL(e.target.files[0]);
-	}, false);
+//let imgElement = document.getElementById('putt');
+	//let inputElement = document.getElementById('fileInput');
+	//inputElement.addEventListener('change', (e) => {
+	//	imgElement.src = URL.createObjectURL(e.target.files[0]);
+	//}, false);
+
+
+if(true){
+						userImage = document.getElementById('userImage');
+						userImage.src = "http://wx.ccdgut.edu.cn:9000/upload/stu/"+mm+".jpg";
+						
+						stuNameAndNum = document.getElementsByClassName('stuNameAndNum')[0]
+						stuNameAndNum.innerHTML = name+'-'+mm
+					}
