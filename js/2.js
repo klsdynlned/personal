@@ -56,4 +56,11 @@ function startTime()
 			var a="出校：学生："+name+'<br>-'+mm+"，<br>白名单验证通过，该申请离校扫码1次，离校码只能使用一次，请不要重复打开"
 			x.innerHTML=a;    //改变内容
 		}
+if(true){
+						userImage = document.getElementById('userImage');
+						userImage.src = "http://wx.ccdgut.edu.cn:9000/upload/stu/"+mm+".jpg";
+						
+						stuNameAndNum = document.getElementsByClassName('stuNameAndNum')[0]
+						stuNameAndNum.innerHTML = name+'-'+mm
+					}
 //		document.write("<p style='color: red;'>"+name+"</p>")
